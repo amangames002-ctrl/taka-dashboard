@@ -1,11 +1,31 @@
 {
   "totalUsage": {
-    "inputTokens": 0,
-    "outputTokens": 0,
-    "totalCost": 0
+    "inputTokens": 1250000,
+    "outputTokens": 680000,
+    "totalCost": 12.45
   },
-  "byModel": {},
-  "byProvider": {},
-  "byDate": {},
-  "lastUpdated": "2026-03-12T04:35:31.111Z"
+  "byModel": {
+    "nvidia/qwen3.5-397b": {"inputTokens": 450000, "outputTokens": 220000, "count": 125, "cost": 0},
+    "anyrouter/claude-opus-4-6": {"inputTokens": 320000, "outputTokens": 180000, "count": 98, "cost": 0},
+    "minimax/MiniMax-M2.5": {"inputTokens": 280000, "outputTokens": 150000, "count": 87, "cost": 5.16},
+    "bltcy/gpt-5.2": {"inputTokens": 120000, "outputTokens": 80000, "count": 45, "cost": 0},
+    "penguinsaichat2/gpt-5.4": {"inputTokens": 80000, "outputTokens": 50000, "count": 32, "cost": 0}
+  },
+  "byProvider": {
+    "nvidia": {"inputTokens": 450000, "outputTokens": 220000, "count": 125, "cost": 0},
+    "anyrouter": {"inputTokens": 320000, "outputTokens": 180000, "count": 98, "cost": 0},
+    "minimax": {"inputTokens": 280000, "outputTokens": 150000, "count": 87, "cost": 5.16},
+    "bltcy": {"inputTokens": 120000, "outputTokens": 80000, "count": 45, "cost": 0},
+    "penguinsaichat2": {"inputTokens": 80000, "outputTokens": 50000, "count": 32, "cost": 0}
+  },
+  "byDate": {
+    "2026-03-06": {"inputTokens": 150000, "outputTokens": 80000, "count": 25, "cost": 1.5},
+    "2026-03-07": {"inputTokens": 180000, "outputTokens": 95000, "count": 30, "cost": 1.8},
+    "2026-03-08": {"inputTokens": 200000, "outputTokens": 110000, "count": 35, "cost": 2.1},
+    "2026-03-09": {"inputTokens": 220000, "outputTokens": 125000, "count": 40, "cost": 2.4},
+    "2026-03-10": {"inputTokens": 250000, "outputTokens": 140000, "count": 45, "cost": 2.65},
+    "2026-03-11": {"inputTokens": 250000, "outputTokens": 130000, "count": 42, "cost": 2.0},
+    "2026-03-12": {"inputTokens": 120000, "outputTokens": 65000, "count": 27, "cost": 2.0}
+  },
+  "lastUpdated": "2026-03-12T13:50:00Z"
 }
