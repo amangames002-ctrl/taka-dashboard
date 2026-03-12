@@ -1,0 +1,13 @@
+{
+  "name": "taka-dashboard",
+  "version": "1.0.0",
+  "description": "Taka Token 消耗量統計儀表板",
+  "main": "taka-stats.js",
+  "scripts": {
+    "start": "node taka-stats.js server",
+    "init": "node taka-stats.js init"
+  },
+  "keywords": ["taka", "token", "dashboard", "statistics"],
+  "author": "Aman",
+  "license": "MIT"
+}
